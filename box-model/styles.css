@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.box{
+    display: block;
+    width: 200px;
+    height: 200px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+/* #one{
+    padding: 40px;
+} */
+#one{
+    background-color: aqua;
+    padding-left: 100px;
+    border: 5px dotted green;
+}
+#two{
+    background-color: brown;
+}
+
+#three{
+    box-sizing: border-box;
+    width: 30%;
+    height: 45%;
+    background-color: darkkhaki;
+    border: 15px solid black;
+    padding-top: 100px;
+}
+#four{
+    background-color: cornflowerblue;
+    padding-bottom: 100px;
+}

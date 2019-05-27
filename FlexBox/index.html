@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlexBox</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+        .add-color {
+            background-color: teal;
+        }
+    </style>
+    <script languate="JavaScript">
+        function addColor() {
+            const colors = ['#00FF7F', '#66CDAA', '#4169E1', '#FF6347', '#FAEBD7'];
+            for (let i = 0; i < colors.length; i++) {
+                // console.log(colors[i]);
+                let x = document.getElementsByClassName("add-color");
+                x[0].style.backgroundcolor = colors[i];
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <section>
+        <ul class="fb-wrap">
+            <li class="fb-ctr add-color">One</li>
+            <li class="fb-ctr add-color">Two</li>
+            <li class="fb-ctr add-color">Three</li>
+            <li class="fb-ctr add-color">Four</li>
+            <li class="fb-ctr add-color">Five</li>
+            <li class="fb-ctr add-color">Six</li>
+            <li class="fb-ctr add-color">Seven</li>
+            <li class="fb-ctr add-color">Eight</li>
+            <li class="fb-ctr add-color">nine</li>
+            <li class="fb-ctr add-color">ten</li>
+        </ul>
+
+    </section>
+    <section class="container fb-ctr">
+        <img src="https://source.unsplash.com/random/600x300" alt="random-img" />
+    </section>
+    <div class="fb-ctr">
+        <button type="button" onclick="changeBG()">Click Me</button>
+    </div>
+    <section class="fb-sb">
+        <div class="space">Top</div>
+        <div class="space">Center</div>
+        <div class="space">Bottom</div>
+    </section>
+    <section class="fb-ctr">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bhcmlTleeV8" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </section>
+    <section>
+        
+    </section>
+
+
+    <script>
+        function changeBG() {
+            document.body.style.backgroundColor = "mistyrose";
+        }
+    </script>
+</body>
+
+</html>

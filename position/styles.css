@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.main{
+    position: relative;
+    background-color: antiquewhite;
+    border: 10px solid black;
+    margin: 0 auto;
+    width: 700px;
+    height: 1300px;
+}
+
+#absolute{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    background-color: aqua;
+    width: 200px;
+    height: 400px;
+}
+
+#fixed{
+    position: fixed;
+    top: 10%;
+    left: 25%;
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+}
+
+div > p{
+    color: blueviolet;
+}
+
+div + p {
+ color: black;
+}

@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.box{
+    margin: 200px 150px;
+    display: inline-block;
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+}
+
+#one{
+    float: left;
+}
+
+#two{
+    float: right;
+}

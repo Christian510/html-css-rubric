@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding-top: 60px;
+    display: block;
+    width: 100%;
+}
+
+section{
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+}
+
+li{
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.fb-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.fb-ctr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fb-sb{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+
+/* .add-color{
+    background-color: cornflowerblue;
+} */
+
+.space{
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 100px
+}
+
+button{
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+

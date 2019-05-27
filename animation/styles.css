@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#box1{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    -webkit-animation: movebox1 8s infinite;
+    animation: movebox1 8s infinite;
+}
+@-webkit-keyframes movebox1{
+    from {left: 0px;}
+    to {left: 900px;}
+}
+
+@keyframes movebox1{
+    from {left: 0px;}
+    to {left: 900px;}
+}
+
+#box2{
+    background-color: chocolate ;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    -webkit-animation: movebox2 10s infinite;
+    animation: movebox2 10s infinite;
+} 
+
+@-webkit-keyframes movebox2{
+    from {left: 0px;}
+    to {left: 900px;}
+}
+
+@keyframes movebox2{
+    from {left: 0px;}
+    to {left: 900px;}
+}
+
+
+/* ***** Transition ***** */
+
+span, button{
+    display: inline-block;
+}
+.transition{
+    margin-top: 100px;
+}
+
+.circle{
+    background: linear-gradient( -45deg,darkred, darkred 49%, yellow 49%, yellow 51%, red 51% ); 
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+.square:focus {
+    width: 300px;
+}

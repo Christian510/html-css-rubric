@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    padding: 20px 30px;
+    border: 10px solid;
+    border-radius: 15px;
+    opacity: .5;
+    outline: none;
+    text-align: center;
+    
+}
+
+input[type="text"]{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: black;
+
+}
+
+input:hover{
+    border-color: red;
+    
+}
+
+.gradient{
+    margin: 40px;
+    width: 600px;
+    height: 100px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.box-shadow{
+    background-color: coral;
+    width: 400px;
+    height: 50px;
+    box-shadow:20px 20px 10px grey;
+}
+p{
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.lorem{
+    text-align: left;
+}
+
+p:first-letter{
+    font-size: 2em;
+}
+span{
+    font-size: 30px;
+    color: red;
+}
+
+.square{
+    margin-top: 20px;
+}
+
+#top{
+    writing-mode: horizontal-tb;
+}
+
+#right{
+    writing-mode: vertical-rl;
+    position: relative;
+    margin: 0;
+}
+
+#left{
+    margin: 0;
+    writing-mode: vertical-lr;
+    position: absolute;
+    bottom: -12%;
+    right: 38%
+}
